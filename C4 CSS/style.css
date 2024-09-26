@@ -9,17 +9,24 @@ h4
     background-color: maroon;
 }
 
+h3
+{
+    color: crimson;
+}
 /* uso de clase en la etiqueta */
 .title
 {
-    font-size: 2.3em;
+    font-size: 3em;
     color: crimson;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .logo
 {
-    width: 200px;
-    
+    width: 250px;
+    height: 250px;
 }
 
 .cards
@@ -29,6 +36,10 @@ h4
     padding: 0px 1em .5em 1em;
     border-radius: 7%;
     transition: 1s; /* tiempo que tarda en hacer o regresar a su estado normal */
+    display: flex;
+    flex-direction: column;
+    gap: .5em; /* espacio que hay entre los elementos*/
+    align-items: center; /*centrar los elementos en el contenedor*/
 }
 
 /*cuando se pasa el raton*/
@@ -40,7 +51,6 @@ h4
 /* uso de id en la etiqueta - no se puede repetir */
 #titulos
 {
-    border: 2px solid black;
     /*viewport view = pantalla en donde estoy navegando*/
     width: 60vw;
     margin: auto;  /*centrar el div*/
@@ -50,4 +60,17 @@ h4
 #principal
 {
     font-size: 4em;
+}
+
+#cards-container
+{
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid black;
+    border-radius: 3%;
+    padding: 2em;
+    display: flex; /* uso de flexbox */
+    flex-direction: row; /* row fila - column columna */
+    justify-content: space-around; /* propiedad de flexbox para direccionar */
 }
