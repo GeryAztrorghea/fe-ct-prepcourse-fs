@@ -1,0 +1,27 @@
+/* selector directoa la etique */
+body
+{
+    background-color: chocolate;
+}
+
+h4
+{
+    background-color: maroon;
+}
+
+/* uso de clase en la etiqueta */
+.title
+{
+    font-size: 40px;
+    color: crimson;
+}
+
+.logo
+{
+    width: 100px;
+}
+/* uso de id en la etiqueta - no se puede repetir */
+#principal
+{
+    font-size: 70px;
+}
